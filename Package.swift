@@ -26,8 +26,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
 	.binaryTarget(name: "CSSH",
-                      url: "https://github.com/migueldeicaza/Libssh2Prebuild/releases/download/1.9.0%2BOpenSSL_1_1_1h/CSSH-1.9.0+OpenSSL_1_1_1h.xcframework.zip",
-                      checksum: "6e169e26136a73038b627c899b0ea07efae9aa25359b559c8fae0c1689ad99cf"),
+                      url: "https://github.com/migueldeicaza/Libssh2Prebuild/releases/download/1.10.0%2BOpenSSL_1_1_1o_DEBUG.2/CSSH-1.10.0+OpenSSL_1_1_1o_DEBUG.2.xcframework.zip",
+                      checksum: "1009a6f267557609b6cd801ec74d4df233df3d1f2b129c01953c3b5a719275aa"),
 	.target(
 	    name: "CSwiftSH",
 	    dependencies: ["CSSH"]),
